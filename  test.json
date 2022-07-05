@@ -1,0 +1,53 @@
+{
+  "name": "D",
+  "directed": true,
+  "strict": false,
+  "_subgraph_cnt": 0,
+  "objects": [
+    {
+      "_gvid": 0,
+      "name": "A",
+      "label": "\\N",
+      "shape": "diamond"
+    },
+    {
+      "_gvid": 1,
+      "name": "B",
+      "label": "\\N",
+      "shape": "box"
+    },
+    {
+      "_gvid": 2,
+      "name": "C",
+      "label": "\\N",
+      "shape": "circle"
+    },
+    {
+      "_gvid": 3,
+      "name": "D",
+      "label": "\\N"
+    }
+  ],
+  "edges": [
+    {
+      "_gvid": 0,
+      "tail": 0,
+      "head": 1,
+      "color": "grey",
+      "style": "dashed"
+    },
+    {
+      "_gvid": 1,
+      "tail": 0,
+      "head": 2,
+      "color": "black:invis:black"
+    },
+    {
+      "_gvid": 2,
+      "tail": 0,
+      "head": 3,
+      "arrowhead": "none",
+      "penwidth": "5"
+    }
+  ]
+}
