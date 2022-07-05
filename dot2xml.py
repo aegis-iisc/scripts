@@ -24,10 +24,10 @@ def main():
         dotfile = sys.argv[1] 
         output = dotfile+".json"
         os.system ("dot -Txdot_json  -o "+output+" "+dotfile)
-        # get the data from an URL
+        # get the data from the json
         data = readfromjson(output)
         print(json2xml.Json2xml(data).to_xml())
 
 
 if __name__ == '__main__':
-   main()  # next section explains the use of sys.exit
+   main()  
