@@ -1,8 +1,8 @@
 # scripts
 
 ## dependencies
-Graphviz 3.0.0
-json2xml
+- Graphviz 3.0.0
+- json2xml
 ## Installing Graphviz
 ### Mac using brew
 brew install graphviz
